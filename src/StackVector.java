@@ -1,5 +1,17 @@
+/**Universidad del Valle de Guatemala
+ Fecha: 02/02/2021
+ Nombre:
+ Juan Carlos Bajan: 20109
+ Clase StackVector
+ */
 import java.util.Vector;
 
+
+/**
+ * Aqui se define que se realiza en cada funcion definida por la interfaz STACK,
+ * Con Generics, se recibe un objeto de tipo E. Es importante mencionar que en la
+ * funcion pop, si se encuentra que el vector esta vacio, devuelve null.
+ * */
 public class StackVector<E> implements Stack<E>{
 
     Vector<E> vec;

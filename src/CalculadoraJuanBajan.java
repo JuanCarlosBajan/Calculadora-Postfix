@@ -1,8 +1,9 @@
-/**
- * 
- *
- *
- * **/
+/**Universidad del Valle de Guatemala
+ Fecha: 02/02/2021
+ Nombre:
+ Juan Carlos Bajan: 20109
+ Clase CalculadoraJuanBajan
+ */
 
 public class CalculadoraJuanBajan implements CalculadoraGeneral{
 
@@ -12,6 +13,15 @@ public class CalculadoraJuanBajan implements CalculadoraGeneral{
         db = new StackVector<Integer>();
     }
 
+    /**
+     * Funcion Calculo:
+     *      Esta disenada con el fin de realizar el proceso de calculo a travez de POSTFIX, esta funcion recibe
+     *      una variable de tipo String y devuelve otro String. Verifica que los caracteres del string recibido
+     *      sean de tipo numerico o de las operaciones aritmeticas "+,-,*,/". Luego de realizar la verificacion
+     *      procede con el calculo y asi hasta terminar con los datos. Puede regresar un valor numerico identificado
+     *      como string o puede devolver la palabra "NO FUNCIONA CON ESTA OPERACION" refiriendose a que no cumple
+     *      con los requisitos para que se obtenga un valor especifico.
+     * */
     public String Calculo(String element) {
 
         boolean works = true;

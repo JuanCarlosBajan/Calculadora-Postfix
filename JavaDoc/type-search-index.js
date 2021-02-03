@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"CalculadoraGeneral"},{"p":"<Unnamed>","l":"CalculadoraJuanBajan"},{"p":"<Unnamed>","l":"Main"},{"p":"<Unnamed>","l":"Stack"},{"p":"<Unnamed>","l":"StackVector"}];updateSearchResults();

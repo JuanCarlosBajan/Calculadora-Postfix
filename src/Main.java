@@ -1,6 +1,21 @@
+/**Universidad del Valle de Guatemala
+ Fecha: 02/02/2021
+ Nombre:
+ Juan Carlos Bajan: 20109
+ Clase Main
+ */
+
 import java.io.File;
 import java.io.BufferedReader;
 import java.io.FileReader;
+
+/**
+ * Esta es la clase principal en el programa, ella lleva el control de todo y brinda los datos necesarios
+ * para cumplir con el objetivo. ES NECESARIO CAMBIAR DOS PARTES. EL PATH DEL ARCHIVO Y LA INSTANCIA DE LA
+ * CALCULADORA. Aqui, se itera sobre todas las lineas del documento y se extrae la informacion para redirigirla
+ * a la calculadora.
+ * */
+
 
 public class Main {
 
