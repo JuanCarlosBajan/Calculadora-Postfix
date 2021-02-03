@@ -12,7 +12,11 @@ public class StackVector<E> implements Stack<E>{
         vec.add(item);
     }
     public E pop(){
+        if(vec.isEmpty()){
+            return null;
+        } else {
         return vec.remove(size()-1);
+        }
     }
     public boolean empty(){
         return size() == 0;
