@@ -14,7 +14,7 @@ import java.util.Vector;
  * */
 public class StackVector<E> implements Stack<E>{
 
-    Vector<E> vec;
+    private Vector<E> vec;
 
     public  StackVector(){
         vec = new Vector<E>();

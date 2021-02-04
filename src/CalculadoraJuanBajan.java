@@ -7,7 +7,7 @@
 
 public class CalculadoraJuanBajan implements CalculadoraGeneral{
 
-    Stack<Integer> db;
+    private Stack<Integer> db;
 
     public CalculadoraJuanBajan(){
         db = new StackVector<Integer>();
